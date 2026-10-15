@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editResource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Ресурс" />
+
+    <EditText
+        android:id="@+id/editLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Логин" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Пароль"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Заметки" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Добавить" />
+
+    <Button
+        android:id="@+id/buttonDel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Удалить все" />
+
+    <Button
+        android:id="@+id/buttonGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Показать все" />
+
+    <Button
+        android:id="@+id/buttonImport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Импорт" />
+
+    <Button
+        android:id="@+id/buttonExport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Экспорт" />
+
+    <TextView
+        android:id="@+id/ShowRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ресурсы:" />
+
+    <TextView
+        android:id="@+id/ShowLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Логины:" />
+
+    <TextView
+        android:id="@+id/ShowPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пароли:" />
+
+    <TextView
+        android:id="@+id/ShowNot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Заметки:" />
+
+</LinearLayout>
